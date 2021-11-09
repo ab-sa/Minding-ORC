@@ -185,8 +185,8 @@ run_sims <- function(p0 = 0.5,    # outcome risk in development population
 
 ##### Examples
 ## simulation runs
-run_sims(p0 = 0.5, delta = -10)
-run_sims(p0 = 0.25, delta = 25)
+run_sims(p0 = 0.1, delta = -10)  ## top-left panel in the manuscript
+run_sims(p0 = 0.5, delta = 50)   ## bottom-right panel in the manuscript
 
 
 ## Adjust odds ratio
