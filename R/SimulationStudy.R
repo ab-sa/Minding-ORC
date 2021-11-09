@@ -42,7 +42,10 @@ odds_adjust_numerical <- function (p0, p1, v)
 }
 
 ## Simulation study runs function
-run_sims <- function(p0 = 0.5, delta = 10, n = 10000) {
+run_sims <- function(p0 = 0.5,    # outcome risk in development population
+                     delta = 10,  # difference between outcome risk in development and target populations
+                     n = 10000)   # number of simulated outcome risk from a beta distribution
+  {
 
   ## Required functions
   EstOR_compare <- function(p0 = p0, delta = delta,
